@@ -1,7 +1,7 @@
 class User {
-    int id;
-    String name;
-    String email;
+    protected int id;
+    protected String name;
+    protected String email;
 
     public User(int id, String name, String email) {
         this.id = id;
